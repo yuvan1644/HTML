@@ -1,0 +1,204 @@
+
+HTML- hypertext markup language.
+     it has collections of pre-defined tags.
+     that used to basic structure of web page.
+     the html tags used to collect input from user and also used to give output to user via web browser
+     the html tags has limited property and values. due to limitation css is required.
+
+     How HTML and CSS work?
+       responsive webpage=HTML(tags) + CSS(property & values)
+
+    Tag ?
+         <> - open tag
+         </> - closed tag  
+
+    Type of tags in HTML   
+      1. Input tags - it use to collect many tpye of input from user
+      2. Output tags- it use to display different type of output to user via browser
+
+    Structure of HTML tags 
+      1. dependent tag-those tags open seprate and close seprate 
+         ex-  
+            <html> </html>
+            <body> </body>
+
+      2. independent tag-those tags that has only open.
+        ex-
+           <img >
+           <br>
+           <hr>
+          react + angular will not support the independent tag
+
+      3. self closing tag - those html tag that open and close together.
+         ex-
+           <img
+            />
+           <br/>
+           <hr/>
+
+    Behavior of HTML tags
+        1.block level tag- those html tags that print statememt in new line.
+
+        2. inline tag- those html tags that print statement in same line(side by side).
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+     => Tags
+            <> open , </> closed
+
+      => Type of tag 
+          1.input tag- it collect input from user
+          2. output tag - it display output to user     
+
+     => structure of tags
+          1.dependent  <h1> <h1/>- open closse seprate
+          2.independent <br>-only open
+          3.self closing <br/>-open close together 
+
+     => Behaviorof tag
+          1.block level tag- it print in new line
+          2.inline tag- it print in same line      
+
+==============================================================================================================================
+
+    The valid extension of html document
+       => .html- best for digital marketing
+       => .htm-
+--------------------------------------------------------------------------------------------------------------------------------
+
+    Structure of HTML document
+        =>html start to end document.
+            HTML
+              1.head
+                 -marketing and analytics section(for digital marketing)
+                 -library section(css,javascript,other)
+
+              2.body   
+                 -tags for input and output.
+       
+-----------------------------------------------------------------------------------------------------------------------------------
+05-06
+ <DOCTYPE html>
+    => it introduce current page to browser, saying that there will be HTML 5 tags also be ready to execte it.
+    => it also represent that current document is html document.
+-----------------------------------------------------------------------------------------------------------------------------------
+  h1 to h6, it is called heading tag. it create head line of web page
+         -use h1 only one time in  each page.
+------------------------------------------------------------------------------------------------------------------------------------
+
+Type of list in html
+  1.UL-unorder list
+      it has 4 type
+        =>disc
+        =>square
+        =>circle
+        =>none
+
+  2.OL-order list
+      Type
+        => type="1"
+        => type="A"
+        => type="a"
+        => type="i"
+        => type="I"
+
+  3.Dl-definition list
+      type
+        => dt-definition title
+            -it use to display head line of content.
+
+        => dd-definition details
+             -it use display details about the contents.
+------------------------------------------------------------------------------------------------------------------------------------
+   Details And Summary
+     - it use to toggle the text for read more and read less.
+------------------------------------------------------------------------------------------------------------------------------------
+   Table in HTML
+     1.Method of table- will not support in angular and react
+       =>table
+         ->caption
+         ->tr-table row
+           ->th-table heading
+           ->td-table data
+
+     2.Method of table- will support in angular and react
+       =>table
+         ->thead- it cover upper section of table
+             ->tr
+              ->th
+
+         ->tbody- it cover the middle/data part
+              ->tr
+               ->td
+
+         ->tfoot- it cover bottom of the table
+              ->tr
+                ->th
+
+   Property in table,tr,th,td,thead,tbody,tfoot
+      ->align- left,centre,right
+      ->border-
+      ->bordercolor- it give color to border line
+      ->cell padding- it apply space in side th and td
+      ->cell spacing- it apply space outside of th and td            
+----------------------------------------------------------------------------------------------------------------------------------
+07/06
+    ->table3.html  
+         -> colspan- it use to combine space of 2 more th,td (it comine left to right)
+         ->rowspan-it combine space 2 or more tr (top to bottom)
+  ------------------------------------------------------------------------------------------------------------------------------
+
+     Input tags
+          -> text 
+          ->number 
+          ->email 
+          ->password
+          ->date
+          ->file
+          ->select
+          ->textarea 
+          ->radio 
+          ->checkbox 
+          ->botton
+            ->submit 
+            ->reset 
+            ->button -need javascript 
+          
+10/06
+    Property in input tags / element
+        ->placeholder- its for input guidance
+        ->maxlength- it set max limit input limit in "text,password,email and textarea"
+        ->size - it re-size width of "text,password and email"
+        ->name - it use to capture values given by user in html
+        ->readonly- it will make input element as read only but allow can pass to backend
+        ->disabled- it will make input element as read only but not pass to backend
+        ->value- it use to display the default value in input element
+        ->tabindex- it use to set the sequrnce of cursor      
+        ->required- it make input element as mandatory to fill
+        ->selected- it make  option as  default option in select
+        ->checked- it make checkbox, radio button default checked
+
+
+        ->form tag 
+           -> it is parent container of all input tags
+           ->property are
+             1.action- it use to set backend url where the form data get submitted
+             2.Method- it define type of communication as secure or un-secure.
+                  a. get- it is un-secure because it pass data from browser url
+                  b. post- it is secure, data will not be visible anywhere
+                  c. patch- patch update onlt changes
+                  d. put- put update changes and non changes values
+                  e. delete- it send request to delete record fron server
+
+             3.enctype- it use to encode any tyoe of attachment
+-------------------------------------------------------------------------------------------------------------------        
+ 
+  Type of target in html href ?
+    ->target="_self"   - it open next page in same tab.
+    ->target="_blank" - it open next page in new tab on very click.
+    ->target="_new" - it open next page in new tab but only at 1st click.
+_______________________________________________________________________________________________________________________
+
+
+
+  

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1 align="center">Table, thead,tbody,tfoot,colspan</h1>
+        <table align="center" cellpadding="10" border="1" cellspacing="0">
+              <thead>
+                <tr bgcolor="orange">
+                    <th>EMP ID</th>
+                    <th> Employee Name</th>
+                    <th> Department</th>
+                    <th>Salary</th>
+                    <th>City</th>   
+                    <th>Reporting</th>   
+                    <th>Company</th>             
+                </tr>
+              </thead>
+              <tfoot>
+                <tr bgcolor="lightgrey">
+                    <th>EMP ID</th>
+                    <th> Employee Name</th>
+                    <th> Department</th>
+                    <th>Salary</th>
+                    <th>City</th>
+                    <th>Reporting</th> 
+                    <th>Company</th>                  
+                </tr>
+              </tfoot>
+              <tbody>
+                <tr>
+                    <td>01</td>
+                    <td> Yuvan</td>
+                    <td> HR</td>
+                    <td>50000</td>
+                    <td>Madurai</td>
+                    <td rowspan="3" valign="middle">Manager</td>
+                    <td rowspan="6" valign="middle">TCS</td>
+                </tr>
+                <tr>
+                    <td>02</td>
+                    <td>Sankar</td>
+                    <td>Web Development</td>
+                    <td>25000</td>
+                    <td rowspan="2">Bangalore</td>
+                </tr>
+                <tr>
+                    <td>03</td>
+                    <td>Siva</td>
+                    <td>IT</td>
+                    <td>40000</td>
+                   <!-- <td>Bangalore</td>-->
+                </tr>
+                <tr>
+                    <td>04</td>
+                    <td>Sri</td>
+                    <td>Back End</td>
+                    <td>30000</td>
+                    <td>Trichy</td>
+                    <td>TL</td>
+                </tr>
+                <tr>
+                    <td>05</td>
+                    <td>RK</td>
+                    <td>DataBase</td>
+                    <td colspan="3"  >35000</td>
+                </tr>
+                <tr>
+                    <td>06</td>
+                    <td>Ajith</td>
+                    <td>BPO</td>
+                    <td>20000</td>
+                    <td colspan="2" valign="middle">Chennai</td>
+                    
+                </tr>
+              </tbody>
+        </table>
+    </body>
+</html>
